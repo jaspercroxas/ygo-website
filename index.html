@@ -19,15 +19,33 @@
         
     </head>
     <body class="">
-        <div class="flex flex-col lg:flex-row">
+        <div class="">
             <!-- Sidebar -->
-            
-            
+            <div class="bg-[#B33F40] h-[25px]">
+
+            </div>
+
+            <div id="main-bg" class="bg-[#FFFDF6] h-[200px] md:h-[300px] lg:h-[470px]">
+                <div class="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-4 items-center">
+                    <div class="lg:col-start-2 lg:col-span-6 mt-20">
+                        <h1 class="text-[#28282B] text-[50px] md:text-[70px] lg:text-[100px] leading-none text-center">Yu-Gae-Oh</h1>
+                        <h4 class="text-[#28282B] text-[20px] md:text-[30px] lg:text-[50px] leading-none text-center">Card Collections</h4>
+                    </div>
+                    <div class="col-span-4 items-center mt-20 invisible lg:visible">
+                        <img class="rounded-t-3xl max-h-full " src="img/ygo-icon.png" alt="cute image"/>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="bg-[#B33F40] h-[25px]">
+
+            </div>
             
             <!-- Main Content -->
             <div class="container mx-auto">
                 <!-- Certificates Section -->
-                <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 lg:gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 lg:gap-8 mt-20">
                     <!-- Certificate unlocked item -->
                     <div class="relative group">
                         <img src="img/card-1.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
@@ -40,23 +58,118 @@
                             onclick="openCertificate('img/card-2.png')">
                     </div>
 
+                    <div class="relative group">
+                        <img src="img/card-3.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-3.png')">
+                    </div>
+                    
+                    <!-- Certificate unlocked item -->
+                    <div class="relative group">
+                        <img src="img/card-4.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-4.png')">
+                    </div>
+
+                    <div class="relative group">
+                        <img src="img/card-5.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-5.png')">
+                    </div>
+                    
+                    <!-- Certificate unlocked item -->
+                    <div class="relative group">
+                        <img src="img/card-6.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-6.png')">
+                    </div>
+
+                    <div class="relative group">
+                        <img src="img/card-7.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-7.png')">
+                    </div>
+                    
+                    <!-- Certificate unlocked item -->
+                    <div class="relative group">
+                        <img src="img/card-8.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-8.png')">
+                    </div>
+
+                    <div class="relative group">
+                        <img src="img/card-9.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-9.png')">
+                    </div>
+                    
+                    <!-- Certificate unlocked item -->
+                    <div class="relative group">
+                        <img src="img/card-10.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-10.png')">
+                    </div>
+
+                    <div class="relative group">
+                        <img src="img/card-11.png" alt="Certificate" class="w-full h-full shadow-xl rounded-lg filter cursor-pointer"
+                            onclick="openCertificate('img/card-11.png')">
+                    </div>
+                    
+                    
+
                     
                     
 
                     <!-- Modal for displaying certificate -->
                     <div id="modal" class="overflow-x-auto fixed top-0 left-0 flex items-center justify-center w-full h-full bg-gray-800 bg-opacity-50 invisible" 
                     onclick="closeModal(event)">
-                        <div class="modal-content max-w-4xl bg-[#F4F9F1] rounded-lg p-4">
-                            <span class="text-4xl absolute top-2 right-4 cursor-pointer" onclick="closeModal(event)">&times;</span>
+                        <div class="modal-content max-w-4xl bg-[#FFFDF6] rounded-lg p-4">
+                            <span class="text-4xl absolute top-2 right-4 cursor-pointer text-white" onclick="closeModal(event)">&times;</span>
                             <img id="certificateImage" src="" alt="Certificate" class="w-full rounded-lg">
-                            <!-- <div class="flex items-center justify-center">
-                                <button onclick="downloadCertificate()" class="mt-4 px-4 py-2 bg-[#25A76F] hover:bg-green-800 text-white rounded-md">Download</button>
-                            </div> -->
+                            <div class="flex items-center justify-center">
+                                <button onclick="downloadCertificate()" class="mt-4 px-4 py-2 bg-[#B33F40] hover:bg-[#7D2C2D] text-white rounded-md">Download</button>
+                            </div>
                         </div>
                     </div>
                     
                 </div>
             </div>
+
+            <!-- FOOTER -->
+            <footer class="bg-[#B33F40]">
+                <div class="bg-[#FFFDF6] h-[25px] mt-20">
+
+                </div>
+                <div class="container mx-auto mt-14">
+                    
+                    <div class="flex flex-wrap items-center justify-between mx-auto ">
+                        <div>
+                            <h1 class="text-[40px] text-[#FFFDF6] leading-none mt-14">Conquer the world</h1>
+                            <h1 class="text-[40px] text-[#FFFDF6]">with <span class="text-black font-extrabold">You-Gae-Oh Cards!</span> </h1>
+                        </div>
+                        <!-- <div class="flex flex-wrap items-center justify-between w-auto mt-20">
+                            <a href="https://www.facebook.com/popmartglobal">
+                                <img class="h-8 transition-all duration-500 hover:scale-105 m-1" src="img/fb-icon.png"/>
+                            </a>
+                            <a href="https://www.instagram.com/popmartglobal/">
+                                <img class="h-8 transition-all duration-500 hover:scale-105 m-1" src="img/ig-icon.png"/>
+                            </a>
+                            <a href="https://www.tiktok.com/@popmartglobal?lang=en">
+                                <img class="h-9 transition-all duration-500 hover:scale-105 m-1" src="img/tiktok-icon.png"/>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="flex flex-wrap items-center justify-between mx-auto mt-20 pb-5">
+                        <div class="">
+                            <a href="" class="flex flex-wrap items-center justify-between">
+                                <!-- <img class="h-7" src="img/email-icon.png"/> -->
+                                <h4 class="text-white text-base ml-2 hover:underline">ygo.support@gmail.com</h4>
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap items-center justify-between">
+                            <a href="" class="text-white text-base hover:underline">
+                                Privacy Policy
+                            </a>
+                            <a href="" class="text-white text-base ml-10 hover:underline">
+                                Terms and Conditions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
         </div>
         
         <!-- JavaScript for handling certificate click and modal functionality -->
